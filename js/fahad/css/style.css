@@ -2343,5 +2343,8 @@ a:hover {
 	border-radius: 10px;
 }
 .opacityDecrease {
-	opacity: 0.5;
+	opacity: 0.7;
+}
+.img-button:hover {
+	opacity: 0.7;
 }

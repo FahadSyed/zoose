@@ -62,14 +62,12 @@
 					<!--<figure class="round-outline"><img class="round-photo" src="assets/profile-photo.png" alt=""></figure>-->
 				</div>
 				<p>Jot your travel plans</p>
-				<form id="mainFormCity" action="">
-					<div class="input-group">
-					  <input type="text" class="form-control input-lg" id="searchCityInput" placeholder="Where do you want to go?" name="contact-name">
-					  <span class="input-group-btn">
-						<button class="btn btn-success main-btn" type="button">Find Cities</button>
-					  </span>
-					</div><!-- /input-group -->
-				</form>
+				<div class="input-group">
+				  <input type="text" class="form-control input-lg" name="city" id="searchCityInput" placeholder="Where do you want to go?" name="contact-name">
+				  <span class="input-group-btn">
+					<button class="btn btn-success main-btn" id="searchCityBtn" type="button">Find Cities</button>
+				  </span>
+				</div><!-- /input-group -->
 			</div>
 		</div>
 	</div>
@@ -82,14 +80,14 @@
 		<div class="row" style="margin-top: 50px;">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
-					<div class="col-md-4" style="text-align: center;">
-						<img src="img/time.png" class="feature-buttons" />
+					<div class="col-md-4" id="time" style="text-align: center;">
+						<img src="img/time.png" class="feature-buttons img-button" />
 					</div>
 					<div class="col-md-4" style="text-align: center;">
-						<img src="img/weather.png" class="feature-buttons" />
+						<img src="img/weather.png" class="feature-buttons img-button" />
 					</div>
 					<div class="col-md-4" style="text-align: center;">
-						<img src="img/location.png" class="feature-buttons" />
+						<img src="img/location.png" class="feature-buttons img-button" />
 					</div>
 				</div>
 			</div>
